@@ -1,15 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
-    background: #007BFF;
-    color: #ffffff;
-    padding: 20px 0;
+    background: url('header.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 20px;
     text-align: center;
+    height: 150px;
+}
+
+.container {
+    margin-top: 30px !important;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
 }
 
 nav ul {
@@ -23,25 +39,46 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
 }
 
 section {
+    margin: 20px 0;
     padding: 20px;
-    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.projeto {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
+h2 {
+    color: #3382ed;
+}
+
+h3 {
+    color: #485ccc;
+}
+
+.tecnologias-icons, .sociais-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tecnologias-icons a img, .sociais-icons a img {
+    width: 36px;
+    height: 36px;
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background: #007BFF;
-    color: #ffffff;
+    margin: 20px 0;
+    padding: 8px;
+    background: #171717;
+    color: white;
+}
+
+a {
+    color: #3382ed;
 }
